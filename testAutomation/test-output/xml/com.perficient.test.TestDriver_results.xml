@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Soap Endpoint 2 - TestCase 2"
+           tests="5"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="2.396">
+  <properties />
+  
+  
+            <testcase name="testMethod" time="0.485" classname="com.perficient.test.TestDriver" />
+                <testcase name="testMethod" time="0.462" classname="com.perficient.test.TestDriver" />
+                <testcase name="testMethod" time="0.500" classname="com.perficient.test.TestDriver" />
+                <testcase name="testMethod" time="0.479" classname="com.perficient.test.TestDriver" />
+                <testcase name="testMethod" time="0.470" classname="com.perficient.test.TestDriver" />
+      
+</testsuite>

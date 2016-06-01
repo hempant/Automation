@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test Suite 1" >
+	<listeners>
+	      <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+	      <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+	</listeners>
+	<parameter name="browsers" value="Chrome,FF"/>
+	<test name="TestCase 1">
+   		<parameter name="tc_name" value="TC_001"/>
+   		<parameter name="test_method" value="com.perficient.test.SampleTC.SampleTestMethod"/>
+  		<classes><class name="com.perficient.core.TestDriver"/></classes>
+  	</test> 	
+ 	<test name="TestCase 2">
+   		<parameter name="tc_name" value="TC_002"/>
+   		<parameter name="test_method" value="com.perficient.test.SampleTC.SampleTestMethod"/>
+  		<classes><class name="com.perficient.core.TestDriver"/></classes>
+  	</test>  
+</suite> 
+
+
+
+

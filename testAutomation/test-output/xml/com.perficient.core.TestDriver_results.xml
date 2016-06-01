@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestCase 1"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="24.962">
+  <properties />
+  
+  
+            <testcase name="testMethod" time="14.737" classname="com.perficient.core.TestDriver" />
+                <testcase name="testMethod" time="10.225" classname="com.perficient.core.TestDriver" />
+      
+</testsuite>

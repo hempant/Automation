@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Test Suite 1]">
+  <parameter name="test_method" value="com.perficient.test.SampleTC.SampleTestMethod"/>
+  <parameter name="tc_name" value="TC_002"/>
+  <parameter name="browsers" value="Chrome,FF"/>
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test name="TestCase 1(failed)">
+    <parameter name="test_method" value="com.perficient.test.SampleTC.SampleTestMethod"/>
+    <parameter name="tc_name" value="TC_001"/>
+    <classes>
+      <class name="com.perficient.core.TestDriver">
+        <methods>
+          <include name="classSetup"/>
+          <include name="setBrowserDetails"/>
+          <include name="classSetup"/>
+          <include name="setBrowserDetails"/>
+          <include name="testMethod"/>
+          <include name="suiteSetup"/>
+        </methods>
+      </class> <!-- com.perficient.core.TestDriver -->
+    </classes>
+  </test> <!-- TestCase 1(failed) -->
+  <test name="TestCase 2(failed)">
+    <parameter name="test_method" value="com.perficient.test.SampleTC.SampleTestMethod"/>
+    <parameter name="tc_name" value="TC_002"/>
+    <classes>
+      <class name="com.perficient.core.TestDriver">
+        <methods>
+          <include name="classSetup"/>
+          <include name="setBrowserDetails"/>
+          <include name="classSetup"/>
+          <include name="setBrowserDetails"/>
+          <include name="testMethod"/>
+          <include name="suiteSetup"/>
+        </methods>
+      </class> <!-- com.perficient.core.TestDriver -->
+    </classes>
+  </test> <!-- TestCase 2(failed) -->
+</suite> <!-- Failed suite [Test Suite 1] -->

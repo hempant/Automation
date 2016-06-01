@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Test Suite 1" duration-ms="58223" started-at="2016-05-07T18:06:54Z" finished-at="2016-05-07T18:07:52Z">
+    <groups>
+    </groups>
+    <test name="TestCase 1" duration-ms="26271" started-at="2016-05-07T18:06:54Z" finished-at="2016-05-07T18:07:20Z">
+      <class name="com.perficient.core.TestDriver">
+        <test-method status="PASS" signature="classSetup(java.lang.String, java.lang.String)[pri:0, instance:com.perficient.core.TestDriver@5c5a1b69]" name="classSetup" is-config="true" duration-ms="97" started-at="2016-05-07T23:36:54Z" finished-at="2016-05-07T23:36:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_001]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[com.perficient.test.SampleTC.SampleTestMethod]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classSetup -->
+        <test-method status="PASS" signature="setBrowserDetails()[pri:0, instance:com.perficient.core.TestDriver@5c5a1b69]" name="setBrowserDetails" is-config="true" duration-ms="0" started-at="2016-05-07T23:36:54Z" finished-at="2016-05-07T23:36:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setBrowserDetails -->
+        <test-method status="PASS" signature="testMethod(java.lang.String)[pri:0, instance:com.perficient.core.TestDriver@5c5a1b69]" name="testMethod" duration-ms="10225" started-at="2016-05-07T23:36:54Z" data-provider="data-provider" finished-at="2016-05-07T23:37:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.perficient.core.TestDriver@5c5a1b69]" name="tearDown" is-config="true" duration-ms="975" started-at="2016-05-07T23:37:05Z" finished-at="2016-05-07T23:37:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="testMethod(java.lang.String)[pri:0, instance:com.perficient.core.TestDriver@5c5a1b69]" name="testMethod" duration-ms="14737" started-at="2016-05-07T23:37:06Z" data-provider="data-provider" finished-at="2016-05-07T23:37:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FF]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+        <test-method status="PASS" signature="setBrowserDetails()[pri:0, instance:com.perficient.core.TestDriver@5c5a1b69]" name="setBrowserDetails" is-config="true" duration-ms="0" started-at="2016-05-07T23:37:06Z" finished-at="2016-05-07T23:37:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setBrowserDetails -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.perficient.core.TestDriver@5c5a1b69]" name="tearDown" is-config="true" duration-ms="201" started-at="2016-05-07T23:37:20Z" finished-at="2016-05-07T23:37:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="wrapup()[pri:0, instance:com.perficient.core.TestDriver@5c5a1b69]" name="wrapup" is-config="true" duration-ms="14" started-at="2016-05-07T23:37:20Z" finished-at="2016-05-07T23:37:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wrapup -->
+      </class> <!-- com.perficient.core.TestDriver -->
+    </test> <!-- TestCase 1 -->
+    <test name="TestCase 2" duration-ms="31903" started-at="2016-05-07T18:07:21Z" finished-at="2016-05-07T18:07:52Z">
+      <class name="com.perficient.core.TestDriver">
+        <test-method status="PASS" signature="suiteSetup()[pri:0, instance:com.perficient.core.TestDriver@1efed156]" name="suiteSetup" is-config="true" duration-ms="103" started-at="2016-05-07T23:36:54Z" finished-at="2016-05-07T23:36:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suiteSetup -->
+        <test-method status="PASS" signature="classSetup(java.lang.String, java.lang.String)[pri:0, instance:com.perficient.core.TestDriver@1efed156]" name="classSetup" is-config="true" duration-ms="9" started-at="2016-05-07T23:37:21Z" finished-at="2016-05-07T23:37:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_002]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[com.perficient.test.SampleTC.SampleTestMethod]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classSetup -->
+        <test-method status="PASS" signature="setBrowserDetails()[pri:0, instance:com.perficient.core.TestDriver@1efed156]" name="setBrowserDetails" is-config="true" duration-ms="0" started-at="2016-05-07T23:37:21Z" finished-at="2016-05-07T23:37:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setBrowserDetails -->
+        <test-method status="PASS" signature="testMethod(java.lang.String)[pri:0, instance:com.perficient.core.TestDriver@1efed156]" name="testMethod" duration-ms="8984" started-at="2016-05-07T23:37:21Z" data-provider="data-provider" finished-at="2016-05-07T23:37:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.perficient.core.TestDriver@1efed156]" name="tearDown" is-config="true" duration-ms="759" started-at="2016-05-07T23:37:30Z" finished-at="2016-05-07T23:37:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setBrowserDetails()[pri:0, instance:com.perficient.core.TestDriver@1efed156]" name="setBrowserDetails" is-config="true" duration-ms="0" started-at="2016-05-07T23:37:30Z" finished-at="2016-05-07T23:37:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setBrowserDetails -->
+        <test-method status="PASS" signature="testMethod(java.lang.String)[pri:0, instance:com.perficient.core.TestDriver@1efed156]" name="testMethod" duration-ms="21858" started-at="2016-05-07T23:37:30Z" data-provider="data-provider" finished-at="2016-05-07T23:37:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FF]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.perficient.core.TestDriver@1efed156]" name="tearDown" is-config="true" duration-ms="274" started-at="2016-05-07T23:37:52Z" finished-at="2016-05-07T23:37:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="wrapup()[pri:0, instance:com.perficient.core.TestDriver@1efed156]" name="wrapup" is-config="true" duration-ms="10" started-at="2016-05-07T23:37:52Z" finished-at="2016-05-07T23:37:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wrapup -->
+      </class> <!-- com.perficient.core.TestDriver -->
+    </test> <!-- TestCase 2 -->
+  </suite> <!-- Test Suite 1 -->
+</testng-results>

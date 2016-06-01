@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Soap Currency Conversion]">
+  <parameter name="sheetName" value="TestCase2"/>
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test name="Soap Endpoint 1 - TestCase 1">
+    <parameter name="sheetName" value="TestCase1"/>
+    <classes>
+      <class name="com.perficient.test.TestDriver"/>
+    </classes>
+  </test> <!-- Soap Endpoint 1 - TestCase 1 -->
+  <test name="Soap Endpoint 2 - TestCase 2">
+    <parameter name="sheetName" value="TestCase2"/>
+    <classes>
+      <class name="com.perficient.test.TestDriver"/>
+    </classes>
+  </test> <!-- Soap Endpoint 2 - TestCase 2 -->
+</suite> <!-- Failed suite [Soap Currency Conversion] -->
